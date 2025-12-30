@@ -5,7 +5,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import os
 
-BASE_DIR = os.path.dirname(__file__)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 MODEL_PATH = os.path.join(BASE_DIR, "artifacts", "models", "best_model_logreg.pkl")
 SUMMARY_PATH = os.path.join(BASE_DIR, "artifacts", "reports", "summary.json")
