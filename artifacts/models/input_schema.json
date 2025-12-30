@@ -1,0 +1,34 @@
+{
+  "expected_columns": [
+    "area_asignada",
+    "supervisor_asignado",
+    "asistencia_pct",
+    "tardanzas_30d",
+    "inasistencias_injust_30d",
+    "entregables_asignados",
+    "entregables_a_tiempo",
+    "entregables_a_tiempo_pct",
+    "retrasos_entregables",
+    "eval_supervisor_promedio",
+    "incidencias_registradas",
+    "reuniones_asistidas_pct",
+    "tendencia_desempeno",
+    "antiguedad_dias"
+  ],
+  "example_payload": {
+    "area_asignada": "TI",
+    "supervisor_asignado": "Supervisor_4",
+    "asistencia_pct": 0.9810364399759436,
+    "tardanzas_30d": 4,
+    "inasistencias_injust_30d": 2,
+    "entregables_asignados": 17,
+    "entregables_a_tiempo": 13,
+    "entregables_a_tiempo_pct": 0.8154974580271499,
+    "retrasos_entregables": 4,
+    "eval_supervisor_promedio": 3.9,
+    "incidencias_registradas": 0,
+    "reuniones_asistidas_pct": 0.9678806687789012,
+    "tendencia_desempeno": 1,
+    "antiguedad_dias": 917
+  }
+}

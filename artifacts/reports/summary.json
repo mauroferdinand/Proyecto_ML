@@ -1,0 +1,23 @@
+{
+  "business": {
+    "project": "APAC Practicantes - Riesgo Incumplimiento",
+    "target": "estado_final",
+    "positive_class": 1,
+    "risk_thresholds": {
+      "low": 0.33,
+      "high": 0.66
+    },
+    "run_timestamp_utc": "2025-12-25T01:45:47.727354"
+  },
+  "best_model": "logreg",
+  "all_results": {
+    "logreg": {
+      "roc_auc": 1.0,
+      "pr_auc": 1.0
+    },
+    "rf": {
+      "roc_auc": 1.0,
+      "pr_auc": 1.0
+    }
+  }
+}

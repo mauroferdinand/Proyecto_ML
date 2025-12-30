@@ -1,0 +1,187 @@
+{
+  "shape": {
+    "rows": 2000,
+    "cols": 16
+  },
+  "columns": [
+    "id_practicante",
+    "fecha_ingreso",
+    "area_asignada",
+    "supervisor_asignado",
+    "estado_final",
+    "asistencia_pct",
+    "tardanzas_30d",
+    "inasistencias_injust_30d",
+    "entregables_asignados",
+    "entregables_a_tiempo",
+    "entregables_a_tiempo_pct",
+    "retrasos_entregables",
+    "eval_supervisor_promedio",
+    "incidencias_registradas",
+    "reuniones_asistidas_pct",
+    "tendencia_desempeno"
+  ],
+  "dtypes": {
+    "id_practicante": "object",
+    "fecha_ingreso": "object",
+    "area_asignada": "object",
+    "supervisor_asignado": "object",
+    "estado_final": "int64",
+    "asistencia_pct": "float64",
+    "tardanzas_30d": "int64",
+    "inasistencias_injust_30d": "int64",
+    "entregables_asignados": "int64",
+    "entregables_a_tiempo": "int64",
+    "entregables_a_tiempo_pct": "float64",
+    "retrasos_entregables": "int64",
+    "eval_supervisor_promedio": "float64",
+    "incidencias_registradas": "int64",
+    "reuniones_asistidas_pct": "float64",
+    "tendencia_desempeno": "int64"
+  },
+  "missing_values": {
+    "id_practicante": 0,
+    "fecha_ingreso": 0,
+    "area_asignada": 0,
+    "supervisor_asignado": 0,
+    "estado_final": 0,
+    "asistencia_pct": 0,
+    "tardanzas_30d": 0,
+    "inasistencias_injust_30d": 0,
+    "entregables_asignados": 0,
+    "entregables_a_tiempo": 0,
+    "entregables_a_tiempo_pct": 0,
+    "retrasos_entregables": 0,
+    "eval_supervisor_promedio": 0,
+    "incidencias_registradas": 0,
+    "reuniones_asistidas_pct": 0,
+    "tendencia_desempeno": 0
+  },
+  "target_distribution": {
+    "0": 1597,
+    "1": 403
+  },
+  "target_rate_positive": 0.2015,
+  "numeric_summary": {
+    "estado_final": {
+      "count": 2000.0,
+      "mean": 0.2015,
+      "std": 0.4012209355449436,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "asistencia_pct": {
+      "count": 2000.0,
+      "mean": 0.8956849041172393,
+      "std": 0.12110802971309603,
+      "min": 0.5005527973772692,
+      "25%": 0.905464143804274,
+      "50%": 0.9379302594813266,
+      "75%": 0.970659199597326,
+      "max": 0.9999751563429043
+    },
+    "tardanzas_30d": {
+      "count": 2000.0,
+      "mean": 3.6655,
+      "std": 3.731832396627461,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 15.0
+    },
+    "inasistencias_injust_30d": {
+      "count": 2000.0,
+      "mean": 1.613,
+      "std": 1.6488148152984232,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 7.0
+    },
+    "entregables_asignados": {
+      "count": 2000.0,
+      "mean": 12.4615,
+      "std": 4.6608346290895,
+      "min": 5.0,
+      "25%": 8.0,
+      "50%": 12.0,
+      "75%": 17.0,
+      "max": 20.0
+    },
+    "entregables_a_tiempo": {
+      "count": 2000.0,
+      "mean": 9.836,
+      "std": 4.410876547349515,
+      "min": 2.0,
+      "25%": 6.0,
+      "50%": 9.0,
+      "75%": 13.0,
+      "max": 19.0
+    },
+    "entregables_a_tiempo_pct": {
+      "count": 2000.0,
+      "mean": 0.8300632957709914,
+      "std": 0.1528214421804033,
+      "min": 0.4035565879630732,
+      "25%": 0.8120172051477456,
+      "50%": 0.8744804766211054,
+      "75%": 0.9366791015861983,
+      "max": 0.9999785333410098
+    },
+    "retrasos_entregables": {
+      "count": 2000.0,
+      "mean": 2.6255,
+      "std": 2.15396600130257,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 3.0,
+      "max": 12.0
+    },
+    "eval_supervisor_promedio": {
+      "count": 2000.0,
+      "mean": 3.84755,
+      "std": 0.9010104924215516,
+      "min": 1.5,
+      "25%": 3.6,
+      "50%": 4.1,
+      "75%": 4.5,
+      "max": 5.0
+    },
+    "incidencias_registradas": {
+      "count": 2000.0,
+      "mean": 0.998,
+      "std": 1.2270895951140726,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 5.0
+    },
+    "reuniones_asistidas_pct": {
+      "count": 2000.0,
+      "mean": 0.8625930450615197,
+      "std": 0.10621717360636426,
+      "min": 0.5002446540622348,
+      "25%": 0.8238189291583952,
+      "50%": 0.8794061738514851,
+      "75%": 0.9400650955043361,
+      "max": 0.9999742876548268
+    },
+    "tendencia_desempeno": {
+      "count": 2000.0,
+      "mean": 0.3395,
+      "std": 0.7081599362062386,
+      "min": -1.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    }
+  }
+}
